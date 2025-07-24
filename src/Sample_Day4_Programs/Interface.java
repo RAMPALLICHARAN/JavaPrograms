@@ -42,6 +42,8 @@ public class Interface {
     public static void main(String[] args) {
         PaymentSystem payment1 = new DebitCardPayment(34000);
         payment1.makePayment();
+        
+        
 
         System.out.println();
 
