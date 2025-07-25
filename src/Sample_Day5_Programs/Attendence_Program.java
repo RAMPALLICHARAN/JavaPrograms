@@ -41,6 +41,7 @@ public class Attendence_Program {
         }
 
         attendance.showAttendance();
+        System.out.println("\nRemaining students are marked as not present.");
     }
 }
 

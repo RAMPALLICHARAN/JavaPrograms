@@ -4,69 +4,37 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.Date;
 
-
 interface WorkTask {
     void executeTask();
 }
 
-
-abstract class AbstractWorkTask implements WorkTask {
-    String taskName;
-
-    AbstractWorkTask(String taskName) {
-        this.taskName = taskName;
-    }
-
-    public void logStartTime() {
-        System.out.println("Task Started: " + taskName + " at " + new Date());
-    }
-}
-
-
-class AttendMeeting extends AbstractWorkTask {
-    AttendMeeting() {
-        super("Attend Meeting");
-    }
-
+class AttendMeeting implements WorkTask {
     public void executeTask() {
-        logStartTime();
-        System.out.println("Joining Zoom/Teams call...");
+        System.out.println("Task Started: Attend Meeting at " + new Date());
+        System.out.println("Joining meeting...");
     }
 }
 
-class CompleteTask extends AbstractWorkTask {
-    CompleteTask() {
-        super("Complete Assigned Work");
-    }
-
+class CompleteTask implements WorkTask {
     public void executeTask() {
-        logStartTime();
-        System.out.println("Working on assigned tasks...");
+        System.out.println("Task Started: Complete Assigned Work at " + new Date());
+        System.out.println("Completing tasks...");
     }
 }
 
-class WriteCode extends AbstractWorkTask {
-    WriteCode() {
-        super("Write Code");
-    }
-
+class WriteCode implements WorkTask {
     public void executeTask() {
-        logStartTime();
-        System.out.println("Writing and compiling code...");
+        System.out.println("Task Started: Write Code at " + new Date());
+        System.out.println("Writing code...");
     }
 }
 
-class ReviewExecution extends AbstractWorkTask {
-    ReviewExecution() {
-        super("Review Execution");
-    }
-
+class ReviewExecution implements WorkTask {
     public void executeTask() {
-        logStartTime();
-        System.out.println("Reviewing output and logs...");
+        System.out.println("Task Started: Review Execution at " + new Date());
+        System.out.println("Reviewing work...");
     }
 }
-
 
 class TaskReminder extends TimerTask {
     int count = 0;
@@ -78,27 +46,24 @@ class TaskReminder extends TimerTask {
     };
 
     public void run() {
-        WorkTask task = taskList[count % taskList.length];
+        if (count == taskList.length) {
+            count = 0; 
+        }
+
+        WorkTask task = taskList[count];
         task.executeTask();
         count++;
-        System.out.println("-----------------------------------");
+
+        System.out.println("=> Task accepted.\n");
     }
 }
-
 
 public class Task_Reminder {
     public static void main(String[] args) {
         Timer timer = new Timer();
+        System.out.println("Reminder started at: " + new Date());
 
-        System.out.println("Reminder system started at " + new Date());
-
-        
-        long interval = 10 * 1000;  
-        
-
+        long interval = 10 * 1000;
         timer.schedule(new TaskReminder(), 0, interval);
     }
 }
-
-
-
