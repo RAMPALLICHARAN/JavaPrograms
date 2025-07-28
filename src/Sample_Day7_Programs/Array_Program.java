@@ -10,7 +10,9 @@ public class Array_Program {
         } finally {
             System.out.println("Execution completed (try-catch-finally block finished).");
         }
+        System.out.println("We have entered into the main program).");
     }
+    
 }
 
 
