@@ -34,12 +34,12 @@ public class HashMapProgram {
                     System.out.print("Enter the student's score: ");
                     if (scanner.hasNextInt()) {
                         int score = scanner.nextInt();
-                        scanner.nextLine(); // Consume newline
+                        scanner.nextLine(); 
                         studentScores.put(name, score);
                         System.out.println("Student added successfully.");
                     } else {
                         System.out.println("Invalid score. Please enter a number.");
-                        scanner.nextLine(); // Clear invalid input
+                        scanner.nextLine(); 
                     }
                     break;
 

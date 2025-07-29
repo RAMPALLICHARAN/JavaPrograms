@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomNumber_Program {
     public static void main(String[] args) {
         long random10DigitNumber = generateTenDigitRandomNumber();
-        System.out.println("Random 10-Digit Number: " + random10DigitNumber);
+        System.out.println("Random 10-Digit Number Generated is : " + random10DigitNumber);
     }
 
     public static long generateTenDigitRandomNumber() {
