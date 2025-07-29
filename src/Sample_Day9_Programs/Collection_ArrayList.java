@@ -13,6 +13,10 @@ public class Collection_ArrayList {
         data.add(20);
         data.add(30);
         data.add(40);
+        data.add(50);
+        data.add(60);
+        data.add(70);
+        data.add(80);
 
        
         for (Integer value : data) {

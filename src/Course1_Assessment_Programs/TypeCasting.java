@@ -1,4 +1,4 @@
-package Assessment_Programs;
+package Course1_Assessment_Programs;
 
 public class TypeCasting {
 	public static void main(String[] args) {

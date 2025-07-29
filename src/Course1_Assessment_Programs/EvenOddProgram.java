@@ -1,4 +1,4 @@
-package Assessment_Programs;
+package Course1_Assessment_Programs;
 import java.util.Scanner;
 
 public class EvenOddProgram {
