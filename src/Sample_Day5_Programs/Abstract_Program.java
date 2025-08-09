@@ -9,7 +9,7 @@ abstract class VehicleDrive {
 class Car extends VehicleDrive {
     @Override
     void speed() {
-        System.out.println("Speed of the car: 120 km/hr");
+        System.out.println("Speed of the car: 120 km/hr  ");
     }
 
     @Override

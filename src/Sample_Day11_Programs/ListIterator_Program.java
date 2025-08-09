@@ -16,7 +16,7 @@ public class ListIterator_Program {
         
         ListIterator<Integer> iterator = numbers.listIterator();
         
-        System.out.println(" FORWARD TRAVERSAL:");
+        System.out.println(" FORWARD TRAVERSAL:  ");
         while (iterator.hasNext()) {
             int val = iterator.next();
             System.out.println("next() → " + val);

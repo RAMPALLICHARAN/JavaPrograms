@@ -34,7 +34,7 @@ public class CollectionsProfit_Program {
     {
         ArrayList<Department> depart = new ArrayList<>();
         
-        depart.add(new Department("Sales", 20000, 15000));
+        depart.add(new Department("Sales    ", 20000, 15000));
         depart.add(new Department("Marketing", 3000, 2000));
         depart.add(new Department("Research", 25000, 20000));
         

@@ -9,7 +9,7 @@ public class TypeCasting {
 		double anotherdoubleValue = 20.98;
 		int anotherintValue = (int)anotherdoubleValue;
 		System.out.println("The actual value is "+ anotherdoubleValue);
-		System.out.println("The typecasted value of the actual value is " + anotherintValue);
+		System.out.println("The typecasted value of the actual value is    " + anotherintValue);
 		
 	}
 

@@ -12,7 +12,7 @@ public class ATM_Project{
 
     public void DisplayMenu() 
     {
-	  System.out.println("1.Check Balance \n2.With Draw\n3.Deposit\n4.Exit\n");
+	  System.out.println("1.Check Balance \n2.With Draw\n3.Deposit\n4.Exit\n  ");
     }
     public void CheckBalance()
     {

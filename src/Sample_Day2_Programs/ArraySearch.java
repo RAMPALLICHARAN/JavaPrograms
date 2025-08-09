@@ -12,7 +12,7 @@ public class ArraySearch {
         
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == key) {
-                System.out.println("Element found at index " + i);
+                System.out.println("Element found at index   " + i);
                 found = true;
                 break;  
             }

@@ -21,7 +21,7 @@ public class FileWriter_Program {
         }
 
         
-        System.out.println("Reading content from the file:");
+        System.out.println("Reading content from the file:  ");
         try {
             FileReader reader = new FileReader(filePath);
             int ch;

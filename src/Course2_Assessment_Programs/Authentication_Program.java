@@ -31,7 +31,7 @@ public class Authentication_Program {
     public void register(String username, String password) {
         for (User user : userList) {
             if (user.getUsername().equals(username)) {
-                System.out.println("Username already taken. Please choose another.");
+                System.out.println("Username already taken. Please choose another.   ");
                 return;
             }
         }

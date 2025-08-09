@@ -13,7 +13,7 @@ public class EvenOddProgram {
 		}
 		public static void main(String[] args) {
 			Scanner input = new Scanner(System.in);
-			System.out.println("Enter a number : ");
+			System.out.println("Enter a number :   ");
 			int num = input.nextInt();
 			EvenOddProgram obj = new EvenOddProgram();
 			obj.CheckEvenOdd(num);

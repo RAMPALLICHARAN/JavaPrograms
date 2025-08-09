@@ -6,7 +6,7 @@ public interface Bank_Program {
 
     
     default void displayAccountType() {
-        System.out.println("Account Type: Generic Bank Account");
+        System.out.println("Account Type: Generic Bank Account  ");
     }
 
    

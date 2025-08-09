@@ -8,7 +8,7 @@ package Sample_Day12_Programs;
 	        FileWriter writer = new FileWriter("C:\\Users\\91830\\Downloads\\Sample2.txt");
 	        writer.write(content);
 	        writer.close();
-	        System.out.println("Content written successfully using FileWriter.");
+	        System.out.println("Content written successfully using FileWriter.    ");
 	    }
 	
 
