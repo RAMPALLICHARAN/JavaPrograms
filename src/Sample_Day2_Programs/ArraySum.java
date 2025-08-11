@@ -8,7 +8,7 @@ public class ArraySum {
 		for(i=0; i<array.length;i++) {
 			sum = sum + array[i];
 		}
-		System.out.println("The sum of the elements of the array is   " + sum);
+		System.out.println("The sum of the elements of the array is  " + sum);
 		
 		
 		
