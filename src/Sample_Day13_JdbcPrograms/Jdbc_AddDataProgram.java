@@ -46,7 +46,7 @@ public class Jdbc_AddDataProgram {
                         int id = rs.getInt("id");
                         String name = rs.getString("name");
                         int value = rs.getInt("value");
-                        System.out.println("ID: " + id + " | Name: " + name + " | Value: " + value);
+                        System.out.println("ID:   " + id + " | Name: " + name + " | Value: " + value);
                     }
                 }
 
