@@ -1,4 +1,4 @@
-package Testing_DemoWebShop;
+package Sample_Day22_Testing_AddToCart;
 
 import java.time.Duration;
 

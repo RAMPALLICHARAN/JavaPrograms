@@ -1,4 +1,4 @@
-package DemoWebShop1;
+package Sample_Day23_Testing_DemoShop;
 
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ public class Testing_Groups {
 
 	public void test1() {
 
-		System.out.println("This is Test case 1");
+		System.out.println("This is Test case 1  ");
 
 	}
 
