@@ -38,7 +38,7 @@ class Person implements Serializable {
 	
 	@Override
 	public String toString() {
-		return "Person [id=" + id + ", name=" + name + "]";
+		return "Person [id=" + id + ", name=  " + name +   "]";
 	}
 }
 
@@ -47,7 +47,7 @@ public class Serializable_Progarm {
 		
 		Person person1 = new Person();
 		person1.setId(101);
-		person1.setName("Name One");
+		person1.setName("Name One  ");
 
 		try {
 			
