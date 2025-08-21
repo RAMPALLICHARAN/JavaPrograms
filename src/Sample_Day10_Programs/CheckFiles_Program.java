@@ -8,7 +8,7 @@ public class CheckFiles_Program {
         File file = new File(filePath);
 
         if (file.exists()) {
-            System.out.println("✅ File exists.  ");
+            System.out.println("✅ File exists.    ");
         } else {
             System.out.println("File does not exist.");
         }
