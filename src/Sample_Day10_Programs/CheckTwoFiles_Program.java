@@ -33,7 +33,7 @@ public class CheckTwoFiles_Program {
             br2.close();
 
             if (same) {
-                System.out.println("Files are same.  ");
+                System.out.println("Files are same.      ś  ");
             } else {
                 System.out.println("Files are different.");
             }
